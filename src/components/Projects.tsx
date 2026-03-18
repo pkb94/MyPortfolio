@@ -8,34 +8,28 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "DevNotes",
+    title: "Pulseboard",
     description:
       "A markdown-powered note-taking app with real-time syncing, code highlighting, and offline support via service workers.",
     tech: ["Next.js", "TypeScript", "SQLite", "Prisma", "Tailwind CSS"],
-    github: "https://github.com/yourusername/devnotes",
-    live: "https://devnotes.example.com",
-  },
-  {
-    title: "JobTrackr",
-    description:
-      "A kanban-style job application tracker with analytics dashboard, email reminders, and browser extension.",
-    tech: ["React", "Node.js", "PostgreSQL", "Redis", "Docker"],
-    github: "https://github.com/yourusername/jobtrackr",
+    github: "https://github.com/pkb94/pulseboard",
+    //live: "https://pulseboard.com",
   },
   {
     title: "StreamPulse",
     description:
       "Real-time analytics platform ingesting IoT sensor data, visualizing metrics with WebSocket-powered live charts.",
     tech: ["Go", "Kafka", "InfluxDB", "React", "D3.js"],
-    github: "https://github.com/yourusername/streampulse",
-    live: "https://streampulse.example.com",
+    github: "https://github.com/pkb94/streampulse",
+    //live: "https://streampulse.example.com",
   },
   {
-    title: "Open Source CLI Toolkit",
+    title: "million-app",
     description:
-      "A collection of productivity CLI tools for developers — file scaffolding, git helpers, and project bootstrapping.",
-    tech: ["Rust", "CLI", "Shell"],
-    github: "https://github.com/yourusername/cli-toolkit",
+      "Full-stack trading analytics platform — options flow (GEX), sector heatmaps, trade journaling, order management, portfolio tracking, and budget management.",
+    tech: ["Next.js", "TypeScript", "PostgreSQL", "Python", "Tailwind CSS", "FASTAPI"],
+    github: "https://github.com/pkb94/million-app",
+    live: "https://optflw.com"
   },
 ];
 

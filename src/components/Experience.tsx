@@ -11,7 +11,7 @@ const experience: Job[] = [
   {
     company: "STERIS",
     role: "Associate Applications Analyst",
-    period: "August 2022 – Present",
+    period: "August 2022 – February 2026",
     location: "Mentor, Ohio",
     bullets: [
      "Full-stack developer delivering end-to-end enterprise web solutions with React, .NET/C#, and Azure—modernized legacy services, built CI/CD pipelines, and partnered with business teams to improve performance, reliability, and cost efficiency.",
@@ -40,7 +40,7 @@ const experience: Job[] = [
       "Wrote Python scripts to automate data cleaning, saving 10 hrs/week.",
       "Designed and implemented healthcare system integrations by connecting ASP.NET applications with SQL Server/Oracle and applying PACS/RIS integration patterns for radiology workflows.",
     ],
-    tech: ["Python", "D3.js", "Flask", "NumPy"],
+    tech: ["C#", "PowerShell", "Python", "SQL Server", "Oracle DB", "ASP.NET"],
   },
 ];
 
